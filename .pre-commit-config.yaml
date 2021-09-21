@@ -19,6 +19,11 @@ repos:
       - id: mixed-line-ending
       - id: trailing-whitespace
 
+  - repo: https://github.com/ComPWA/mirrors-cspell
+    rev: v5.10.1
+    hooks:
+      - id: cspell
+
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v2.4.1
     hooks:

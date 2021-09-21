@@ -59,12 +59,14 @@
         "tensorwaves"
     ],
     "ignoreWords": [
+        "Conda",
         "PYPI",
         "bdist",
         "noreply",
         "prereleased",
         "rtfd",
         "sdist",
-        "setuptools"
+        "setuptools",
+        "venv"
     ]
 }

@@ -2,6 +2,7 @@
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ComPWA/.github/main.svg)](https://results.pre-commit.ci/latest/github/ComPWA/.github/main)
 [![Spelling checked](https://img.shields.io/badge/cspell-checked-brightgreen.svg)](https://github.com/streetsidesoftware/cspell/tree/master/packages/cspell)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This repository manages the GitHub profile and repository templates for the [ComPWA Organization](https://github.com/ComPWA).
 

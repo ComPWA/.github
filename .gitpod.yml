@@ -14,3 +14,4 @@ github:
 vscode:
   extensions:
     - streetsidesoftware.code-spell-checker
+    - esbenp.prettier-vscode

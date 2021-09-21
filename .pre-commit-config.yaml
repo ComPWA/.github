@@ -19,6 +19,13 @@ repos:
       - id: mixed-line-ending
       - id: trailing-whitespace
 
+  - repo: https://github.com/ComPWA/repo-maintenance
+    rev: 0.0.34
+    hooks:
+      - id: check-dev-files
+        args:
+          - --no-prettierrc
+
   - repo: https://github.com/ComPWA/mirrors-cspell
     rev: v5.10.1
     hooks:

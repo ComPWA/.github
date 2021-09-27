@@ -56,7 +56,8 @@
         "ampform",
         "compwa",
         "qrules",
-        "tensorwaves"
+        "tensorwaves",
+        "Zenodo"
     ],
     "ignoreWords": [
         "bdist",

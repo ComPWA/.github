@@ -4,24 +4,25 @@ The ["Common Partial Wave Analysis"](https://github.com/ComPWA) organization (Co
 
 The main projects that ComPWA is currently developing are:
 
-- **[QRules](qrules.readthedocs.io)**<br>
+- **[QRules](https://qrules.readthedocs.io)**<br>
   [![Documentation build status](https://readthedocs.org/projects/qrules/badge/?version=latest)](https://qrules.readthedocs.io)
   [![PyPI package](https://badge.fury.io/py/qrules.svg)](https://pypi.org/project/qrules)
   [![Zenodo DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5526360.svg)](https://doi.org/10.5281/zenodo.5526360)<br>
   a package that helps generating allowed transitions between quantum states on the basis of quantum number conservation rules.
-- **[AmpForm](ampform.readthedocs.io)**<br>
-  [![Documentation build status](https://readthedocs.org/projects/qrules/badge/?version=latest)](https://qrules.readthedocs.io)
+
+- **[AmpForm](https://ampform.readthedocs.io)**<br>
+  [![Documentation build status](https://readthedocs.org/projects/ampform/badge/?version=latest)](https://ampform.readthedocs.io)
   [![PyPI package](https://badge.fury.io/py/ampform.svg)](https://pypi.org/project/ampform)
   [![Zenodo DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5526648.svg)](https://doi.org/10.5281/zenodo.5526648)<br>
   which helps to formulate amplitude models for different spin formalisms and with different dynamics.
 
-- **[TensorWaves](tensorwaves.readthedocs.io)**<br>
-  [![Documentation build status](https://readthedocs.org/projects/qrules/badge/?version=latest)](https://qrules.readthedocs.io)
+- **[TensorWaves](https://tensorwaves.readthedocs.io)**<br>
+  [![Documentation build status](https://readthedocs.org/projects/tensorwaves/badge/?version=latest)](https://tensorwaves.readthedocs.io)
   [![PyPI package](https://badge.fury.io/py/tensorwaves.svg)](https://pypi.org/project/tensorwaves)
   [![Zenodo DOI](https://zenodo.org/badge/doi/10.5281/zenodo.5526650.svg)](https://doi.org/10.5281/zenodo.5526650)<br>
   a fitter and data generation package for multiple computational back-ends.
 
-- **[PWA Pages](pwa.readthedocs.io)**<br>
+- **[PWA Pages](https://pwa.readthedocs.io)**<br>
   [![Documentation build status](https://readthedocs.org/projects/pwa/badge/?version=latest)](https://pwa.readthedocs.io)<br>
   an overview of the basis of Partial Wave Analysis that provides links to the most important literature and software in the field.
 

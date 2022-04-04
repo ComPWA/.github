@@ -20,7 +20,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/ComPWA/repo-maintenance
-    rev: 0.0.98
+    rev: 0.0.119
     hooks:
       - id: check-dev-files
         args:
@@ -28,11 +28,11 @@ repos:
           - --no-python
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v5.6.12
+    rev: v5.9.0
     hooks:
       - id: cspell
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v2.5.1
+    rev: v2.6.2
     hooks:
       - id: prettier

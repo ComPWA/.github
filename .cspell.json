@@ -67,7 +67,9 @@
     ],
     "ignoreWords": [
         "bdist",
+        "commitlint",
         "Conda",
+        "MAINT",
         "noreply",
         "prereleased",
         "PYPI",

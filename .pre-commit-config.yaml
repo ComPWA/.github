@@ -20,12 +20,14 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/ComPWA/repo-maintenance
-    rev: 0.0.161
+    rev: 0.0.162
     hooks:
       - id: check-dev-files
         args:
           - --no-prettierrc
           - --no-python
+          - --repo-name=compwa-github
+          - --repo-title=Public ComPWA GitHub profile
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
     rev: v6.17.1

@@ -1,7 +1,14 @@
 {
   "recommendations": [
     "esbenp.prettier-vscode",
+    "garaioag.garaio-vscode-unwanted-recommendations",
     "github.vscode-github-actions",
     "streetsidesoftware.code-spell-checker"
+  ],
+  "unwantedRecommendations": [
+    "ms-python.flake8",
+    "ms-python.isort",
+    "ms-python.pylint",
+    "travisillig.vscode-json-stable-stringify"
   ]
 }

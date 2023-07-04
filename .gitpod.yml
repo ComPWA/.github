@@ -14,5 +14,6 @@ github:
 vscode:
   extensions:
     - esbenp.prettier-vscode
+    - garaioag.garaio-vscode-unwanted-recommendations
     - github.vscode-github-actions
     - streetsidesoftware.code-spell-checker

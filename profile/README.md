@@ -1,6 +1,6 @@
 # Welcome to the ComPWA organization
 
-The ["Common Partial Wave Analysis"](https://github.com/ComPWA) organization (ComPWA) aims to make amplitude analysis accessible through transparent and interactive documentation, modern software development tools, and collaboration-independent frameworks. For more information, see the [About page](https://compwa-org.readthedocs.io/en/stable/about.html).
+The ["Common Partial Wave Analysis"](https://github.com/ComPWA) organization (ComPWA) aims to make amplitude analysis accessible through transparent and interactive documentation, modern software development tools, and collaboration-independent frameworks. For more information, see the [About page](https://compwa-org.readthedocs.io).
 
 The main projects that ComPWA is currently developing are:
 

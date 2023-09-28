@@ -20,10 +20,11 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/ComPWA/repo-maintenance
-    rev: 0.0.192
+    rev: 0.0.200
     hooks:
       - id: check-dev-files
         args:
+          - --keep-issue-templates
           - --no-prettierrc
           - --no-python
           - --repo-name=compwa-github

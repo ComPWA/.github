@@ -1,0 +1,77 @@
+name: Bug Report
+description: File a bug report
+labels:
+  - 🐛 Bug
+assignees:
+  # cspell: ignore redeboer shenvitor
+  - redeboer
+  - shenvitor
+projects:
+  - ComPWA/5
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Is there any log output (such as raised exceptions) you can share?
+      placeholder: Place any log output here
+      render: plain text
+
+  - type: textarea
+    id: code-snippet
+    attributes:
+      label: Is it possible to reproduce the bug with a small code snippet?
+      description: Ideally, post a small snippet of code that can reproduce the bug, including `import` statements.
+      placeholder: Paste your Python code here
+      render: python3
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Additional steps to reproduce the bug
+      description: Where there any additional steps you took that led up to the bug?
+      placeholder: Fill this out in particular if it is hard to provide a code snippet that reproduces the bug.
+
+  - type: dropdown
+    id: python-version
+    attributes:
+      label: Which Python version were you using?
+      description: |
+        You can check this with
+        ```shell
+        python3 --version
+        ```
+      options:
+        - Python 3.6
+        - Python 3.7
+        - Python 3.8
+        - Python 3.9
+        - Python 3.10
+        - Python 3.11
+        - Python 3.12
+
+  - type: textarea
+    id: pip-freeze
+    attributes:
+      label: Python dependencies
+      description: |
+        If the bug is caused by a Python package, please run the following command and paste the output here:
+        ```shell
+        python3 -m pip freeze
+        ````
+      placeholder: Paste the output of pip freeze here
+      render: plain text

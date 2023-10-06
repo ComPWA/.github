@@ -25,6 +25,7 @@ repos:
       - id: check-dev-files
         args:
           - --keep-issue-templates
+          - --no-gitpod
           - --no-prettierrc
           - --no-python
           - --repo-name=compwa-github

@@ -16,4 +16,5 @@ vscode:
     - esbenp.prettier-vscode
     - garaioag.garaio-vscode-unwanted-recommendations
     - github.vscode-github-actions
+    - stkb.rewrap
     - streetsidesoftware.code-spell-checker

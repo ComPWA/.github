@@ -1,0 +1,38 @@
+name: DX improvement
+description: Suggest an improvement to the Developer Experience
+labels:
+  - 🖱️ DX
+assignees:
+  # cspell: ignore redeboer shenvitor
+  - redeboer
+  - shenvitor
+projects:
+  - ComPWA/5
+
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: >-
+        What can be improved in the Developer Experience?
+      placeholder: |
+        Recently, this linter tool released a new feature that enables us to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+      description: What should be done to improve the DX workflow?
+      placeholder: |
+        Please upgrade the linter tool to... Please set this configuration to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots that support your suggestion here.

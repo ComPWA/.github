@@ -3,6 +3,8 @@
     "editor.rulers": [72],
     "rewrap.wrappingColumn": 72
   },
+  "diffEditor.experimental.showMoves": true,
   "editor.formatOnSave": true,
+  "multiDiffEditor.experimental.enabled": true,
   "rewrap.wrappingColumn": 88
 }

@@ -19,13 +19,19 @@
     "transision",
     "transisions"
   ],
-  "ignorePaths": ["**/.cspell.json", ".pre-commit-config.yaml", ".vscode/*"],
+  "ignorePaths": [
+    "**/.cspell.json",
+    ".gitignore",
+    ".pre-commit-config.yaml",
+    ".vscode/*"
+  ],
   "language": "en-US",
   "words": ["ampform", "compwa", "qrules", "tensorwaves", "Zenodo"],
   "ignoreWords": [
     "Conda",
     "MAINT",
     "PYPI",
+    "PYTHONHASHSEED",
     "bdist",
     "commitlint",
     "noreply",

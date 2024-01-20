@@ -1,8 +1,8 @@
-<!-- Fixes #xxx -->
+<!-- Closes #xxx -->
 
 <!--
 For the PR title, follow a conventional commit message style:
-https://compwa-org.readthedocs.io/en/stable/develop.html#commit-conventions
+https://compwa.github.io/develop#commit-conventions
 -->
 
 <!--

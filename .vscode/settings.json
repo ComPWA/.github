@@ -1,11 +1,21 @@
 {
   "[git-commit]": {
-    "editor.rulers": [72],
+    "editor.rulers": [
+      72
+    ],
     "rewrap.wrappingColumn": 72
+  },
+  "[json]": {
+    "editor.wordWrap": "on"
   },
   "diffEditor.experimental.showMoves": true,
   "editor.formatOnSave": true,
-  "github-actions.workflows.pinned.workflows": [".github/workflows/ci.yml"],
+  "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/ci.yml"
+  ],
+  "gitlens.telemetry.enabled": false,
   "multiDiffEditor.experimental.enabled": true,
-  "rewrap.wrappingColumn": 88
+  "redhat.telemetry.enabled": false,
+  "rewrap.wrappingColumn": 88,
+  "telemetry.telemetryLevel": "off"
 }

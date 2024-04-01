@@ -22,7 +22,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.2.0
+    rev: 0.3.3
     hooks:
       - id: check-dev-files
         args:
@@ -34,7 +34,7 @@ repos:
           - --repo-title=Public ComPWA GitHub profile
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v8.3.0
+    rev: v8.6.1
     hooks:
       - id: cspell
 

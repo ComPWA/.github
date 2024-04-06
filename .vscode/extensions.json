@@ -12,6 +12,7 @@
     "ms-python.flake8",
     "ms-python.isort",
     "ms-python.pylint",
-    "travisillig.vscode-json-stable-stringify"
+    "travisillig.vscode-json-stable-stringify",
+    "tyriar.sort-lines"
   ]
 }

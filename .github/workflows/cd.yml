@@ -14,25 +14,3 @@ jobs:
     if: startsWith(github.ref, 'refs/tags') && !github.event.release.prerelease
     secrets: inherit
     uses: ComPWA/actions/.github/workflows/push-to-version-branches.yml@v1
-  pypi:
-    name: Publish to PyPI
-    if: startsWith(github.ref, 'refs/tags')
-    needs: push
-    runs-on: ubuntu-20.04
-    steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.8"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install setuptools wheel twine
-      - name: Build and publish
-        env:
-          TWINE_USERNAME: __token__
-          TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
-        run: |
-          python setup.py sdist bdist_wheel
-          twine upload dist/*

@@ -11,6 +11,7 @@
   "github-actions.workflows.pinned.workflows": [".github/workflows/ci.yml"],
   "gitlens.telemetry.enabled": false,
   "multiDiffEditor.experimental.enabled": true,
+  "python.terminal.activateEnvironment": false,
   "redhat.telemetry.enabled": false,
   "rewrap.wrappingColumn": 88,
   "telemetry.telemetryLevel": "off"

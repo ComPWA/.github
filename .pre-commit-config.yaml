@@ -27,12 +27,13 @@ repos:
       - id: prettier
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.3.15
+    rev: 0.3.18
     hooks:
       - id: check-dev-files
         args:
           - --keep-issue-templates
           - --no-gitpod
+          - --no-notebook
           - --no-prettierrc
           - --no-python
           - --repo-name=compwa-github

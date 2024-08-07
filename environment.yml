@@ -1,0 +1,7 @@
+name: pre-commit
+channels:
+  - defaults
+dependencies:
+  - pre-commit
+variables:
+  PRETTIER_LEGACY_CLI: 1

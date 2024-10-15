@@ -21,9 +21,11 @@
   ],
   "ignorePaths": [
     "**/.cspell.json",
+    ".envrc",
     ".gitignore",
     ".pre-commit-config.yaml",
-    ".vscode/*"
+    ".vscode/*",
+    "pyproject.toml"
   ],
   "language": "en-US",
   "words": ["ampform", "compwa", "qrules", "tensorwaves", "Zenodo"],
@@ -34,6 +36,7 @@
     "PYTHONHASHSEED",
     "bdist",
     "commitlint",
+    "nodefaults",
     "noreply",
     "prereleased",
     "rtfd",

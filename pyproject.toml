@@ -1,0 +1,21 @@
+[project]
+name = "compwa-github-page"
+version = "0.0.0"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit-uv",
+]
+
+[tool.tomlsort]
+all = false
+ignore_case = true
+in_place = true
+sort_first = [
+    "build-system",
+    "project",
+    "tool.setuptools",
+    "tool.setuptools_scm",
+]
+spaces_indent_inline_array = 4
+trailing_comma_inline_array = true

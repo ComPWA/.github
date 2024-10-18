@@ -1,12 +1,16 @@
 {
   "recommendations": [
+    "eamodio.gitlens",
     "esbenp.prettier-vscode",
     "github.vscode-github-actions",
-    "Soulcode.vscode-unwanted-extensions",
+    "mhutchie.git-graph",
+    "soulcode.vscode-unwanted-extensions",
     "stkb.rewrap",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml"
   ],
   "unwantedRecommendations": [
+    "bungcip.better-toml",
     "davidanson.vscode-markdownlint",
     "garaioag.garaio-vscode-unwanted-recommendations",
     "ms-python.flake8",

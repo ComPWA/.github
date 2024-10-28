@@ -8,3 +8,19 @@ This repository manages the GitHub profile and repository templates for the [Com
 
 - [`profile/README.md`](./profile/README.md) is the profile content seen on the [ComPWA Organization page](https://github.com/ComPWA).
 - [`workflow-templates`](./workflow-templates) provide [shared workflow templates](https://docs.github.com/en/actions/learn-github-actions/sharing-workflows-with-your-organization).
+
+## Contributing
+
+Install [`uv`](https://docs.astral.sh/uv) and install [`pre-commit-uv`](https://pypi.org/project/pre-commit-uv) as a tool:
+
+```shell
+uv tool install pre-commit --with pre-commit-uv --force-reinstall
+```
+
+Next, install the pre-commit hooks (see [`.pre-commit-config.yaml`](./.pre-commit-config.yaml))
+
+```shell
+pre-commit install --install-hooks
+```
+
+so that style checks are performed whenever you commit to this repository.

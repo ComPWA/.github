@@ -1,13 +1,3 @@
-[project]
-name = "compwa-github-page"
-requires-python = ">=3.12"
-version = "0.0.0"
-
-[project.optional-dependencies]
-dev = [
-    "pre-commit-uv",
-]
-
 [tool.tomlsort]
 all = false
 ignore_case = true

@@ -21,7 +21,6 @@
   ],
   "ignorePaths": [
     "**/.cspell.json",
-    ".envrc",
     ".gitignore",
     ".pre-commit-config.yaml",
     ".vscode/*",

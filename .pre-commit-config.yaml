@@ -17,6 +17,7 @@ repos:
           - --keep-issue-templates
           - --no-python
           - --no-pypi
+          - --package-manager=none
           - --repo-name=.github
           - --repo-title=Public ComPWA GitHub profile
 

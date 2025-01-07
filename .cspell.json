@@ -42,5 +42,6 @@
     "sdist",
     "setuptools",
     "venv"
-  ]
+  ],
+  "useGitignore": true
 }

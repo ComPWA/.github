@@ -1,7 +1,6 @@
 ci:
   autoupdate_commit_msg: "MAINT: update lock files"
   autoupdate_schedule: quarterly
-  skip: []
 
 repos:
   - repo: meta
@@ -10,7 +9,7 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.5.11
+    rev: 0.5.12
     hooks:
       - id: check-dev-files
         args:

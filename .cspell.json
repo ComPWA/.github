@@ -23,6 +23,7 @@
     "**/.cspell.json",
     ".gitignore",
     ".pre-commit-config.yaml",
+    ".taplo.toml",
     ".vscode/*",
     "pyproject.toml"
   ],

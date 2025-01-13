@@ -1,5 +1,4 @@
 {
-  "version": "0.2",
   "enableFiletypes": [
     "git-commit",
     "github-actions-workflow",
@@ -23,11 +22,10 @@
     "**/.cspell.json",
     ".gitignore",
     ".pre-commit-config.yaml",
+    ".taplo.toml",
     ".vscode/*",
     "pyproject.toml"
   ],
-  "language": "en-US",
-  "words": ["ampform", "compwa", "qrules", "tensorwaves", "Zenodo"],
   "ignoreWords": [
     "Conda",
     "MAINT",
@@ -42,5 +40,9 @@
     "sdist",
     "setuptools",
     "venv"
-  ]
+  ],
+  "language": "en-US",
+  "useGitignore": true,
+  "version": "0.2",
+  "words": ["ampform", "compwa", "qrules", "tensorwaves", "Zenodo"]
 }

@@ -10,7 +10,7 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.6.4
+    rev: 0.6.5
     hooks:
       - id: check-dev-files
         args:
@@ -23,7 +23,7 @@ repos:
           - --repo-title=Public ComPWA GitHub profile
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-case-conflict
       - id: check-merge-conflict

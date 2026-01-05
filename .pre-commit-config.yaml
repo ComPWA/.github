@@ -10,7 +10,7 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.7.3
+    rev: 0.7.5
     hooks:
       - id: check-dev-files
         args:
@@ -50,6 +50,6 @@ repos:
         args: [--in-place]
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v9.2.0
+    rev: v9.4.0
     hooks:
       - id: cspell

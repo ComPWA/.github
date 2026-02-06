@@ -20,6 +20,7 @@
   ],
   "ignorePaths": [
     "**/.cspell.json",
+    ".github/dependabot.yml",
     ".gitignore",
     ".pre-commit-config.yaml",
     ".taplo.toml",
@@ -28,7 +29,6 @@
   ],
   "ignoreWords": [
     "Conda",
-    "MAINT",
     "PYPI",
     "PYTHONHASHSEED",
     "bdist",

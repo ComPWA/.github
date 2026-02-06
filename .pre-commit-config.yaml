@@ -10,13 +10,12 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.7.3
+    rev: 0.8.2
     hooks:
       - id: check-dev-files
         args:
           - --no-cd
           - --keep-issue-templates
-          - --no-python
           - --no-pypi
           - --package-manager=none
           - --repo-name=.github
@@ -34,7 +33,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/ComPWA/prettier-pre-commit
-    rev: v3.4.2
+    rev: v3.8.1
     hooks:
       - id: prettier
 
@@ -50,6 +49,6 @@ repos:
         args: [--in-place]
 
   - repo: https://github.com/streetsidesoftware/cspell-cli
-    rev: v9.2.0
+    rev: v9.6.0
     hooks:
       - id: cspell

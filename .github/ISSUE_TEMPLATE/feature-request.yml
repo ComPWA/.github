@@ -3,7 +3,7 @@ description: Suggest an idea for this project
 labels:
   - ✨ Feature
 assignees:
-  # cspell: ignore redeboer shenvitor
+  # cspell: ignore redeboer
   - redeboer
 projects:
   - ComPWA/5

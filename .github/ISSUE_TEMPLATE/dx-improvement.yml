@@ -3,7 +3,7 @@ description: Suggest an improvement to the Developer Experience
 labels:
   - 🖱️ DX
 assignees:
-  # cspell: ignore redeboer shenvitor
+  # cspell: ignore redeboer
   - redeboer
 projects:
   - ComPWA/5

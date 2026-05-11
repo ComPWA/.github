@@ -3,9 +3,8 @@ description: File a bug report
 labels:
   - 🐛 Bug
 assignees:
-  # cspell: ignore redeboer shenvitor
+  # cspell: ignore redeboer
   - redeboer
-  - shenvitor
 projects:
   - ComPWA/5
 

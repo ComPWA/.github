@@ -1,3 +1,15 @@
+[tool.compwa.policy]
+package-manager = "none"
+repo-name = ".github"
+repo-title = "Public ComPWA GitHub profile"
+
+[tool.compwa.policy.github]
+no-cd = true
+no-pypi = true
+
+[tool.compwa.policy.repo]
+keep-issue-templates = true
+
 [tool.tomlsort]
 all = false
 ignore_case = true

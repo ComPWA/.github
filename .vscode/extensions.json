@@ -8,7 +8,7 @@
     "soulcode.vscode-unwanted-extensions",
     "stkb.rewrap",
     "streetsidesoftware.code-spell-checker",
-    "tamasfe.even-better-toml"
+    "tombi-toml.tombi"
   ],
   "unwantedRecommendations": [
     "bungcip.better-toml",
@@ -17,6 +17,7 @@
     "ms-python.flake8",
     "ms-python.isort",
     "ms-python.pylint",
+    "tamasfe.even-better-toml",
     "travisillig.vscode-json-stable-stringify",
     "tyriar.sort-lines"
   ]

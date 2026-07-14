@@ -10,9 +10,14 @@ no-pypi = true
 [tool.compwa.policy.repo]
 keep-issue-templates = true
 
-[tool.tomlsort]
-all = false
-ignore_case = true
-in_place = true
-spaces_indent_inline_array = 4
-trailing_comma_inline_array = true
+[tool.tombi.format.rules]
+indent-width = 4
+line-width = 88
+
+[tool.tombi.lint.rules]
+key-empty = "off"
+
+[[tool.tombi.schemas]]
+root = "tool.compwa.policy"
+path = "https://raw.githubusercontent.com/ComPWA/policy/fdca003de17ea0a024319f777530f771dd1d8e59/compwa-policy.schema.json"
+include = ["pyproject.toml"]

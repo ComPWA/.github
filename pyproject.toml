@@ -10,6 +10,24 @@ no-pypi = true
 [tool.compwa.policy.repo]
 keep-issue-templates = true
 
+[tool.poe.tasks.all]
+help = "Run all continuous integration (CI) tasks locally"
+sequence = ["style"]
+
+[tool.poe.tasks.style]
+cmd = "pre-commit run --all-files"
+executor = { type = "simple" }
+help = "Perform all linting, formatting, and spelling checks"
+
+[tool.poe.tasks.upgrade]
+executor = { type = "simple" }
+help = "Upgrade lock files"
+parallel = ["_upgrade-precommit"]
+
+[tool.poe.tasks._upgrade-precommit]
+cmd = "pre-commit autoupdate -j8"
+executor = { type = "simple" }
+
 [tool.tombi.format.rules]
 indent-width = 4
 line-width = 88

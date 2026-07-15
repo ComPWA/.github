@@ -6,6 +6,9 @@
   "[json]": {
     "editor.wordWrap": "on"
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tombi-toml.tombi"
+  },
   "diffEditor.experimental.showMoves": true,
   "editor.formatOnSave": true,
   "github-actions.workflows.pinned.workflows": [".github/workflows/ci.yml"],

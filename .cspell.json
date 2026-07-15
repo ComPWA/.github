@@ -23,7 +23,6 @@
     ".github/dependabot.yml",
     ".gitignore",
     ".pre-commit-config.yaml",
-    ".taplo.toml",
     ".vscode/*",
     "pyproject.toml"
   ],

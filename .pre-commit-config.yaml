@@ -44,4 +44,3 @@ repos:
     rev: v10.3.0
     hooks:
       - id: cspell
-        language_version: 25.9.0

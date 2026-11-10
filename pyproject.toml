@@ -21,7 +21,10 @@ max_cache_age = "7d"
 
 [tool.poe.tasks.all]
 help = "Run all continuous integration (CI) tasks locally"
-sequence = ["style", "linkcheck"]
+sequence = [
+    "style",
+    "linkcheck",
+]
 
 [tool.poe.tasks.linkcheck]
 cmd = "uvx --from lychee-bin lychee . --quiet"

@@ -4,6 +4,7 @@ repo-name = ".github"
 repo-title = "Public ComPWA GitHub profile"
 
 [tool.compwa.policy.github]
+dependabot-assignees = ["redeboer"]
 no-cd = true
 no-pypi = true
 

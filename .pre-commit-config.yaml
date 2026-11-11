@@ -1,6 +1,5 @@
 ci:
   autofix_commit_msg: "MAINT: implement pre-commit autofixes"
-  autofix_prs: false
   autoupdate_commit_msg: "MAINT: upgrade lock files"
   autoupdate_schedule: quarterly
   skip:
@@ -14,7 +13,7 @@ repos:
       - id: check-useless-excludes
 
   - repo: https://github.com/ComPWA/policy
-    rev: 0.10.5
+    rev: cd1a5cca049bc1022ea120659a2725bd98c1e23f
     hooks:
       - id: check-dev-files
 

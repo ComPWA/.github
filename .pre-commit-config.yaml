@@ -36,7 +36,7 @@ repos:
         args: [--error-on-warnings]
 
   - repo: https://github.com/ComPWA/prettier-pre-commit
-    rev: v3.9.10
+    rev: v3.8.1
     hooks:
       - id: prettier
 

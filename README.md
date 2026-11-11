@@ -1,4 +1,4 @@
-# Public ComPWA GitHub profile
+# Public ComPWA GitHub profile   
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ComPWA/.github/main.svg)](https://results.pre-commit.ci/latest/github/ComPWA/.github/main)
 [![Spelling checked](https://img.shields.io/badge/cspell-checked-brightgreen.svg)](https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell)

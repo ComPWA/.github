@@ -1,5 +1,6 @@
 ci:
   autofix_commit_msg: "MAINT: implement pre-commit autofixes"
+  autofix_prs: false
   autoupdate_commit_msg: "MAINT: upgrade lock files"
   autoupdate_schedule: quarterly
   skip:

@@ -4,15 +4,33 @@ repo-name = ".github"
 repo-title = "Public ComPWA GitHub profile"
 
 [tool.compwa.policy.github]
+autofix-ci = true
+dependabot-assignees = ["redeboer"]
 no-cd = true
 no-pypi = true
 
 [tool.compwa.policy.repo]
 keep-issue-templates = true
 
+[tool.lychee]
+cache = true
+cache_exclude_status = "400.."
+hidden = true
+include_fragments = "anchor-only"
+include_verbatim = true
+max_cache_age = "7d"
+
 [tool.poe.tasks.all]
 help = "Run all continuous integration (CI) tasks locally"
-sequence = ["style"]
+sequence = [
+    "style",
+    "linkcheck",
+]
+
+[tool.poe.tasks.linkcheck]
+cmd = "uvx --from lychee-bin lychee . --quiet"
+executor = { type = "simple" }
+help = "Check links in repository sources (requires internet connection)"
 
 [tool.poe.tasks.style]
 cmd = "prek run --all-files"
@@ -37,5 +55,5 @@ key-empty = "off"
 
 [[tool.tombi.schemas]]
 root = "tool.compwa.policy"
-path = "https://raw.githubusercontent.com/ComPWA/policy/0.10.1/compwa-policy.schema.json"
+path = "https://raw.githubusercontent.com/ComPWA/policy/0.10.7/compwa-policy.schema.json"
 include = ["pyproject.toml"]

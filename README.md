@@ -4,10 +4,9 @@
 [![Spelling checked](https://img.shields.io/badge/cspell-checked-brightgreen.svg)](https://github.com/streetsidesoftware/cspell/tree/main/packages/cspell)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-This repository manages the GitHub profile and repository templates for the [ComPWA Organization](https://github.com/ComPWA).
+This repository manages the GitHub profile and issue and pull request templates for the [ComPWA Organization](https://github.com/ComPWA).
 
 - [`profile/README.md`](./profile/README.md) is the profile content seen on the [ComPWA Organization page](https://github.com/ComPWA).
-- [`workflow-templates`](./workflow-templates) provide [shared workflow templates](https://docs.github.com/en/actions/learn-github-actions/sharing-workflows-with-your-organization).
 
 ## Contributing
 
